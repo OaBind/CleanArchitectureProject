@@ -6,4 +6,8 @@ class HistoricDB {
     public HistoricDB() {
         sells.Add(new Sell());
     }
+
+    public List<Sell> getHistoricByUserId(uint id) {
+        return sells.FindAll(s => s.idUser == id);
+    }
 }

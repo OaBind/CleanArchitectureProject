@@ -8,4 +8,9 @@ class PriceDB {
         products.Add(0);
         prices.Add(0);
     }
+
+    public double getPriceByProductId(uint id){
+        int idp = products.IndexOf(id);
+        return prices[idp];
+    }
 }

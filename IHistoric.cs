@@ -1,5 +1,5 @@
 using System.Collections.Generic;
 
 interface IHistoric {
-    List<Sell> getUserHistoric();
+    List<Sell> getUserHistoric(uint id);
 }

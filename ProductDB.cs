@@ -7,4 +7,8 @@ class ProductDB {
         products.Add(new Product());
     }
 
+    public Product getProductById(uint id){
+        return products.Find(p => p.id == id);
+    }
+
 }
