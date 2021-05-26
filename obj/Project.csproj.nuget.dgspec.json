@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Project\\Project.csproj": {}
+    "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Rendu\\CleanArchitectureProject\\Project.csproj": {}
   },
   "projects": {
-    "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Project\\Project.csproj": {
+    "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Rendu\\CleanArchitectureProject\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Project\\Project.csproj",
+        "projectUniqueName": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Rendu\\CleanArchitectureProject\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Project\\Project.csproj",
+        "projectPath": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Rendu\\CleanArchitectureProject\\Project.csproj",
         "packagesPath": "C:\\Users\\oabin\\.nuget\\packages\\",
-        "outputPath": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Project\\obj\\",
+        "outputPath": "D:\\ESGI\\5AL1\\Semestre 2\\Clean_Architecture\\Rendu\\CleanArchitectureProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oabin\\AppData\\Roaming\\NuGet\\NuGet.Config"

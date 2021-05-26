@@ -1,0 +1,30 @@
+Pour les choix de nos implémentations, nous avons pris les deux Use Cases et avons fait la liste des étapes
+à effectuer pour mener à bien ces Use Cases et avons défini le découpage du projet.
+Use Case 1 :
+    Un id produit et pas d'id user
+    récupérer les arguments -> main
+    récupérer les infos du produit -> service produit
+    récupérer le prix du produit -> service prix
+    afficher les infos du produit -> module affichage
+
+Use Case 2 :
+    Un id produit et un id user
+    récupérer les arguments -> main
+    récupérer les infos du produit -> service produit
+    récupérer l'historique d'achat de l'utilisateur -> service historique
+    récupérer le prix du produit -> service prix
+    vérifier si il bénéficie d'une modification du prix -> module modification
+    appliquer la modification de prix -> module modification
+    afficher les infos du produit avec le prix mis à jour -> module affichage
+
+Services :
+    - product
+    - Price
+    - Historic
+
+Modules :
+    - Modification : module métier qui va déterminer si il y a une modification du prix ou non
+    - Affichage : gère l'affichage
+
+Nous avons choisi de simuler la base de données avec des données statiques qui sont instanciées
+dans le constructeur des classes suivantes : HistoricDB, PriceDB, ProductDB.

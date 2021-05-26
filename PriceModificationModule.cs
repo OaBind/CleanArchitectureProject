@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 class PriceModificationModule{
 
-    public double reduction(List<Sell> panier, double price)
+    public static double reduction(List<Sell> panier, double price)
     {
         DateTime auj = DateTime.Now;
         auj = auj.AddMonths(-6);
@@ -15,7 +15,7 @@ class PriceModificationModule{
         return price;
     }
 
-    public double augmentation(List<Sell> panier, double price, uint idProduct)
+    public static double augmentation(List<Sell> panier, double price, uint idProduct)
     {
         DateTime auj = DateTime.Now;
         auj = auj.AddYears(-1);
