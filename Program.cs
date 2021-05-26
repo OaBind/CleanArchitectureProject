@@ -15,10 +15,14 @@ namespace Project
             
             if (args.Length > 1) {
                 idUser = uint.Parse(args[1]);
+                product = productService.getProductById(idProduct);
+                price = priceService.getProductPriceById(idProduct);
             } else {
                 product = productService.getProductById(idProduct);
                 price = priceService.getProductPriceById(idProduct);
+                
             }
+            DisplayModule.displayProduct(product,price);
         }
     }
 }
